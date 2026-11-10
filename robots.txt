@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://etause.github.io/Euse/sitemap.xml
