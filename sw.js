@@ -1,6 +1,6 @@
 /* يخزّن ملفات التطبيق للعمل بدون إنترنت. لا يلمس كلمات المستخدم أبدًا لأنها في localStorage وليست في الكاش.
    يفتح من الكاش فورًا ويحدّث في الخلفية، فلا ينتظر الشبكة عند الفتح. غيّر رقم VERSION عند كل إصدار. */
-const VERSION = 'words-v245';
+const VERSION = 'words-v248';
 const CORE = ['./', './index.html', './manifest.webmanifest', './icon.svg', './icon-192.png', './icon-512.png', './bd.webp'];
 
 self.addEventListener('install', (e) => {
